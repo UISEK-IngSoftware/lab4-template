@@ -1,12 +1,19 @@
-# Laboratorio 8. Taller Inicial de Django: Views, Templates y Modelos
+# Laboratorio 4. Taller Inicial de Django: Views, Templates y Modelos
 
 Este laboratorio está diseñado para que los participantes puedan aprender y reforzar sus conocimientos de Python, HTML y CSS mediante la creación de una lista de Pokemones y una página de datalle. Utilizando como framework de desarrollo MVC a Django. De la misma manera se hará una introduccion a Bootstrap para el uso de librerías de Interfaz de usuario en HTML.
 
-Por otra parte se aplica el uso de Modelos en Django y uso de bases de datos relacionales en PostgreSQL
+Por otra parte se aplica el uso de Modelos en Django y uso de bases de datos relacionales.
+
+Además el estudiante aprenderá el manejo de Django desde los templates, views, models, así como la generación de API REST usando Django Rest Framework
+
+## Datos del estudiante
+- **Nombre:** [Nombre del estudiante]
+- **Carrera:** [Carrera del estudiante]
 
 ## Objetivos 
 - El estudiante debe ser capaz de reconocer y aplicar conceptos básicos del Paradigma Orientado a Objetos (POO) como: Clases, Ojetos, Atributos, Métodos. Así mismo el presente proyecto introduce al desarrollo de aplicaciones Web mediante el uso de Django como marco de trabajo para el desarrollo.
 - El estudiante reforzará sus conocimientos de POO y manejo de bases de datos relacionales a través del uso de modelos en Django
+- El estudiante desarrollará backend con API REST
 
 ## Tareas a realizar
 1. Generación de Modelos de Pokemon y Trainer
@@ -14,12 +21,21 @@ Por otra parte se aplica el uso de Modelos en Django y uso de bases de datos rel
 3. Despliegue de Pokemones en Templates lista y detalle
 4. Despliegue de Entrenadores en Templates lista y detalle
 
+
+
 ## Instalación del ambiente
 
 ### Requerimientos
 
 - Python 3.10 o superior
 - PostgreSQL
+- Configurar el repositorio local
+    ~~~
+    git config --local user.name "[Nombre del estudiante]"
+    ~~~
+    ~~~
+    git config --local user.email "[Email de cuenta Github del estudiante]"
+    ~~~
 
 ### Ubuntu Linux / MacOS
 Instalación de gestor de ambientes virtuales de Python
@@ -133,7 +149,7 @@ pip freeze > requirements.txt
 ~~~
 
 # Nota
-Para los siguientes pasos se deberán seguir las instrucciones del docente en clase. No olvide que puedes contactarlo a <paperez@puce.edu.ec> o a <pablo.perez@uisek.edu.ec> dependiendo de la institución donde te encuentres
+Para los siguientes pasos se deberán seguir las **instrucciones del docente en clase**. No olvides que puedes contactarlo a <paperez@puce.edu.ec>
 
 
 # Ejemplos de Cadenas de Conexión para Django
